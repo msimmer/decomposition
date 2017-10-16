@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "lib": ["dom", "es2015", "es2016"],
+        "outDir": "./build/",
+        "noImplicitAny": true,
+        "noEmitOnError": false,
+        "module": "es6",
+        "target": "es5",
+        "allowJs": false
+    }
+}

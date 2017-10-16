@@ -1,0 +1,23 @@
+{
+    "name": "decomposition",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --config webpack.config.js --verbose --colors",
+        "start": "webpack-dev-server"
+    },
+    "keywords": [],
+    "author": "Maxwell Simmer <maxwell.simmer@gmail.com> (http://maxwellsimmer.com)",
+    "license": "MIT",
+    "dependencies": {
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-preset-env": "^1.6.0",
+        "ts-loader": "^2.3.7",
+        "typescript": "^2.5.3",
+        "webpack": "^3.7.1",
+        "webpack-dev-server": "^2.9.2"
+    }
+}
